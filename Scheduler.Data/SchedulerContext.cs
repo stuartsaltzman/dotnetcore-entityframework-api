@@ -23,7 +23,6 @@ namespace Scheduler.Data
                 relationship.DeleteBehavior = DeleteBehavior.Restrict;
             }
 
-
             modelBuilder.Entity<Schedule>()
                 .ToTable("Schedule");
 
